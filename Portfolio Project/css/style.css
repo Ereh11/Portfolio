@@ -9,9 +9,9 @@ html, body{
 .navbar-brand{
     padding: 0 2rem 0 5rem;
 }
-.header .mainbar .navbar{
+/* .header .mainbar .navbar{
     padding: 0rem 5rem;
-}
+} */
 .header .mainbar .nav-item .nav-link{
     font: normal 500 15px/2px 'Poppins', sans-serif;
     text-transform: uppercase;
@@ -36,9 +36,9 @@ html, body{
 /* .banner-img img{
     width: 35rem;
 } */
-.site-title{
+/* .site-title{
    padding-left: 15rem;
-}
+} */
 .about-text{
   line-height: 1.7;
 }
