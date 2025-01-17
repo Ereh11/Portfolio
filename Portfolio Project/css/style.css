@@ -1,0 +1,83 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-brand{
+    padding: 0 2rem 0 5rem;
+}
+.header .mainbar .navbar{
+    padding: 0rem 5rem;
+}
+.header .mainbar .nav-item .nav-link{
+    font: normal 500 15px/2px 'Poppins', sans-serif;
+    text-transform: uppercase;
+    padding: 1rem;
+    color: black
+}
+.header .mainbar .navbar-nav a:hover{
+    background: linear-gradient(to right, #4458dc, #e34fee); 
+    color: #fff; 
+}
+/* .main-site .main-banner{
+    background: url('../imgs/Design\ Process.png') no-repeat center/cover;
+    background-position: 0 20%;
+    background-size: 30rem;
+} */
+.main-site .main-banner .site-title h3{
+    margin-top: 5%; 
+}
+.main-site .main-banner .site-title h5{
+    font-size: 2rem; 
+}
+/* .banner-img img{
+    width: 35rem;
+} */
+.site-title{
+   padding-left: 15rem;
+}
+.about-text{
+  line-height: 1.7;
+}
+.main-title{
+    padding: 0 2rem;
+}
+.cv-button{
+
+    padding: 0.5rem 1rem; 
+    /* margin-left: 13rem; */
+    background: linear-gradient(to right, #4458dc, #e34fee); 
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.cv-button:hover{
+    border: 1px solid #e34fee; 
+    background: none;
+    color: #070707; 
+}
+.dashboard, .cp-img{
+    width: 262px;
+    height: 262px;
+}
+.card-title{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.services-area{
+    padding: 5rem 2rem;
+}
+.services-list .card {
+    margin-right: 15px; 
+    margin-bottom: 20px; 
+}
+svg{
+    width: 3rem;
+    height: 3rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
