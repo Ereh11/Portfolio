@@ -38,6 +38,9 @@ jobs:
         with:
           # Upload entire repository
           path: '.'
+          name: 'unique-artifact-name' # Ensure a unique artifact name to avoid conflicts
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          artifact_name: 'unique-artifact-name' # Match the unique artifact name here
