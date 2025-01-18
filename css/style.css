@@ -1,37 +1,37 @@
-html, body{
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
-.navbar-brand{
-    padding: 0 2rem 0 5rem;
+.navbar-brand {
+  padding: 0 2rem 0 5rem;
 }
 /* .header .mainbar .navbar{
     padding: 0rem 5rem;
 } */
-.header .mainbar .nav-item .nav-link{
-    font: normal 500 15px/2px 'Poppins', sans-serif;
-    text-transform: uppercase;
-    padding: 1rem;
-    color: black
+.header .mainbar .nav-item .nav-link {
+  font: normal 500 15px/2px "Poppins", sans-serif;
+  text-transform: uppercase;
+  padding: 1rem;
+  color: black;
 }
-.header .mainbar .navbar-nav a:hover{
-    background: linear-gradient(to right, #4458dc, #e34fee); 
-    color: #fff; 
+.header .mainbar .navbar-nav a:hover {
+  background: linear-gradient(to right, #4458dc, #e34fee);
+  color: #fff;
 }
-/* .main-site .main-banner{
-    background: url('../imgs/Design\ Process.png') no-repeat center/cover;
-    background-position: 0 20%;
-    background-size: 30rem;
-} */
-.main-site .main-banner .site-title h3{
-    margin-top: 5%; 
+.main-site .main-banner {
+  background: url("../imgs/bannerBackground.png") no-repeat center/cover;
+  background-position: 0 20%;
 }
-.main-site .main-banner .site-title h5{
-    font-size: 2rem; 
+.main-site .main-banner .site-title h3 {
+  margin-top: 5%;
+}
+.main-site .main-banner .site-title h5 {
+  font-size: 2rem;
 }
 /* .banner-img img{
     width: 35rem;
@@ -39,45 +39,158 @@ html, body{
 /* .site-title{
    padding-left: 15rem;
 } */
-.about-text{
+.about-text {
   line-height: 1.7;
 }
-.main-title{
-    padding: 0 2rem;
+.main-title {
+  padding: 0 2rem;
 }
-.cv-button{
-
-    padding: 0.5rem 1rem; 
-    /* margin-left: 13rem; */
-    background: linear-gradient(to right, #4458dc, #e34fee); 
-    color: #fff; 
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+.cv-button {
+  padding: 0.5rem 1rem;
+  /* margin-left: 13rem; */
+  background: linear-gradient(to right, #4458dc, #e34fee);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
-.cv-button:hover{
-    border: 1px solid #e34fee; 
-    background: none;
-    color: #070707; 
+.cv-button:hover {
+  border: 1px solid #e34fee;
+  background: none;
+  color: #070707;
 }
-.dashboard, .cp-img{
-    width: 262px;
-    height: 262px;
+.dashboard,
+.cp-img {
+  width: 262px;
+  height: 262px;
 }
-.card-title{
-    font-size: 1.5rem;
-    text-align: center;
+.card-title {
+  font-size: 1.5rem;
+  text-align: center;
 }
-.services-area{
-    padding: 5rem 2rem;
+.services-area {
+  padding: 5rem 2rem;
 }
 .services-list .card {
-    margin-right: 15px; 
-    margin-bottom: 20px; 
+  margin-right: 15px;
+  margin-bottom: 20px;
 }
-svg{
-    width: 3rem;
-    height: 3rem;
-    margin-bottom: 1rem;
-    margin-right: 1rem;
+svg {
+  width: 3rem;
+  height: 3rem;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
 }
+.animated-logo {
+  animation: typing 1s steps(30), blink-caret 0.5s step-end infinite;
+  border-right: 0.15em solid purple;
+  color: purple;
+  font-family: Pacifico, cursive;
+  font-size: 1.8rem;
+  letter-spacing: 0.1em;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.head-title {
+  font-size: 2rem;
+  font-weight: 800;
+  text-align: center;
+  color: #030303;
+}
+.btn-design {
+  background: white;
+  border: 1px solid black;
+  color: black;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 0.5rem 2rem;
+}
+.btn-design:hover {
+  background: rgb(25, 73, 168);
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 0.5rem 2rem;
+}
+.welocme-card {
+  background-color: none;
+}
+.hand-welcome {
+  display: inline-block;
+  font-size: 1.5rem;
+  animation: wave 1.5s infinite ease-in-out;
+  transform-origin: 70% 70%;
+}
+.welcome-text{
+    display: inline-block;
+    overflow: hidden; /* Ensures hidden text does not show */
+    white-space: nowrap; /* Prevents wrapping to a new line */
+    animation: movechars 4s steps(30, end) infinite, blink 1s step-end infinite;
+    border-right: 1px solid rgb(13, 13, 13); /* Simulates a typing cursor */
+    color: rgb(9, 9, 9); /* Adjust text color */
+}
+
+@keyframes movechars {
+  from {
+    width: 0; /* Start with no text visible */
+  }
+  to {
+    width: 58%; /* Reveal the entire text */
+  }
+}
+
+/* Blinking cursor */
+@keyframes blink {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: purple;
+  }
+}
+
+
+
+
+
+
+
+
+@keyframes wave {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-15deg);
+  }
+  50% {
+    transform: rotate(15deg);
+  }
+  75% {
+    transform: rotate(-15deg);
+  }
+}
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 4ch;
+    }
+  }
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: purple;
+    }
+  }
+/* .contact-me{
+    background-color: linear-gradient(to right, #0b23bf, #e34fee);
+    height: 50px;
+    width: 100%;
+} */
