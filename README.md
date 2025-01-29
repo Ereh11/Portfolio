@@ -1,6 +1,6 @@
 # My Portfolio
 
-Welcome to my personal portfolio! This repository contains my online portfolio, showcasing my skills, work experience, projects, and contact information.
+Welcome to my personal portfolio! This repository contains my online portfolio, showcasing my skills, work experience, projects, and contact information..
 
 ## 🧑🏻‍💻About Me
 
