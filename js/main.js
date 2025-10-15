@@ -33,7 +33,7 @@ window.addEventListener('scroll', function() {
     const whatsappBtn = document.querySelector('.whatsapp-btn');
 
     cvBtn.addEventListener('click', function() {
-      window.open('https://drive.google.com/file/d/1AG_KezQrcb3xy5ZcHhMpcIUil8SKl23B/view?usp=drive_link', '_blank');
+      window.open('https://drive.google.com/file/d/1v_coPwt698CzDynIXY26jE9x90OmOJ_-/view?usp=drive_link', '_blank');
     });
 
     hireBtn.addEventListener('click', function() {
